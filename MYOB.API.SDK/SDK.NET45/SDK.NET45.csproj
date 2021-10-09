@@ -39,7 +39,7 @@
     <DocumentationFile>$(SolutionDir)\Artefacts\SDK\Ship\NET45\MYOB.AccountRight.SDK.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\SDK\MYOB.API.SDK.snk</AssemblyOriginatorKeyFile>

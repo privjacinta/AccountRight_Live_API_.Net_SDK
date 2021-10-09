@@ -22,6 +22,7 @@ namespace SDK.Test.Services
         [Test]
         public void AllServicesMustExistInTheCorrectNamespace([ValueSource("ServiceTypes")]Type serviceType)
         {
+            Console.WriteLine(serviceType.FullName);
             Assert.IsTrue(serviceType.Namespace.StartsWith(typeof(ServiceBase).Namespace));
             Assert.IsFalse(serviceType.Namespace.Contains("Version2"));
         }

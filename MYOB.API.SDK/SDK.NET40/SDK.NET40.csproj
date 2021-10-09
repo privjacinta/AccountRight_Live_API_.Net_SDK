@@ -37,7 +37,7 @@
     <DocumentationFile>$(SolutionDir)\Artefacts\SDK\Ship\NET40\MYOB.AccountRight.SDK.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\SDK\MYOB.API.SDK.snk</AssemblyOriginatorKeyFile>
@@ -132,7 +132,7 @@
     <Compile Include="..\SDK\Extensions\SslProtocolsExtensions.cs">
       <Link>Extensions\SslProtocolsExtensions.cs</Link>
     </Compile>
-	<Compile Include="..\SDK\Contracts\Version2\Report\BalanceSheetSummary\BalanceSheetSummary.cs">
+    <Compile Include="..\SDK\Contracts\Version2\Report\BalanceSheetSummary\BalanceSheetSummary.cs">
       <Link>Contracts\Version2\Report\BalanceSheetSummary\BalanceSheetSummary.cs</Link>
     </Compile>
     <Compile Include="..\SDK\Contracts\Version2\Report\ProfitAndLossSummary\ProfitAndLossSummary.cs">
@@ -287,7 +287,7 @@
     <Compile Include="..\SDK\Contracts\Version2\Company\CompanyTimesheetPreferences.cs">
       <Link>Contracts\Version2\Company\CompanyTimesheetPreferences.cs</Link>
     </Compile>
-		<Compile Include="..\SDK\Contracts\Version2\Company\CustomList.cs">
+    <Compile Include="..\SDK\Contracts\Version2\Company\CustomList.cs">
       <Link>Contracts\Version2\Company\CustomList.cs</Link>
     </Compile>
     <Compile Include="..\SDK\Contracts\Version2\Company\CustomListValue.cs">
@@ -964,7 +964,7 @@
     <Compile Include="..\SDK\Services\Version2\Company\CompanyPreferencesService.cs">
       <Link>Services\Version2\Company\CompanyPreferencesService.cs</Link>
     </Compile>
-	<Compile Include="..\SDK\Services\Version2\Company\CustomListService.cs">
+    <Compile Include="..\SDK\Services\Version2\Company\CustomListService.cs">
       <Link>Services\Version2\Company\CustomListService.cs</Link>
     </Compile>
     <Compile Include="..\SDK\Services\Version2\Company\FormTemplateService.cs">
@@ -1201,7 +1201,7 @@
     <Compile Include="..\SDK\Services\Version2\Report\Payroll\EmployeePayrollAdviceService.cs">
       <Link>Services\Version2\Report\Payroll\EmployeePayrollAdviceService.cs</Link>
     </Compile>
-	<Compile Include="..\SDK\Services\Version2\Report\BalanceSheetSummary\BalanceSheetSummaryService.cs">
+    <Compile Include="..\SDK\Services\Version2\Report\BalanceSheetSummary\BalanceSheetSummaryService.cs">
       <Link>Services\Version2\Report\BalanceSheetSummary\BalanceSheetSummaryService.cs</Link>
     </Compile>
     <Compile Include="..\SDK\Services\Version2\Report\ProfitAndLossSummary\ProfitAndLossSummaryService.cs">
